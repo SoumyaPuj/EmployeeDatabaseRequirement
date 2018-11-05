@@ -25,7 +25,7 @@ SECRET_KEY = 'egzr@6h@@39r)k#5y*3%vong(#gdzg2m0^ofqhn+mwi@eqt(gc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [http://soumyap.pythonanywhere.com/]
 
 
 # Application definition
@@ -89,9 +89,9 @@ DATABASES = {
         'PASSWORD':'root',
         'HOST':'localhost',
         'PORT':'3306',
-        'OPTIONS': {
-            'read_default_file': 'C:/Program Files/MySQL/MySQL Server 5.5/my.cnf',
-                }
+#         'OPTIONS': {
+#             'read_default_file': 'C:/Program Files/MySQL/MySQL Server 5.5/my.cnf',
+#                 }
     }
 
 }
